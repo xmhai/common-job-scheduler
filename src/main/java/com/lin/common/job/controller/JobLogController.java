@@ -1,4 +1,4 @@
-package com.linh.pfa.job.controller;
+package com.lin.common.job.controller;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.linh.pfa.job.config.JobLog;
-import com.linh.pfa.job.config.JobLogRepository;
+import com.lin.common.job.config.JobLog;
+import com.lin.common.job.config.JobLogRepository;
 
 @Controller
 @RequestMapping("/job/logs")

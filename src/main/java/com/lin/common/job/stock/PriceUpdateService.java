@@ -1,4 +1,4 @@
-package com.linh.pfa.job.stock;
+package com.lin.common.job.stock;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,4 +1,4 @@
-package com.linh.pfa.job.config;
+package com.lin.common.job.config;
 
 import static org.quartz.CronScheduleBuilder.cronSchedule;
 import static org.quartz.TriggerBuilder.newTrigger;

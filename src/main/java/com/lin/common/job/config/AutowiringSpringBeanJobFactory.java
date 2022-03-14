@@ -1,4 +1,4 @@
-package com.linh.pfa.job.config;
+package com.lin.common.job.config;
 
 import org.quartz.Job;
 import org.quartz.SchedulerContext;

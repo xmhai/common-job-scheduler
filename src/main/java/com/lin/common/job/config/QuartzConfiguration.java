@@ -1,4 +1,4 @@
-package com.linh.pfa.job.config;
+package com.lin.common.job.config;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -21,8 +21,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 
-import com.linh.pfa.job.config.AutowiringSpringBeanJobFactory;
-import com.linh.pfa.job.config.JobConfig;
+import com.lin.common.job.config.AutowiringSpringBeanJobFactory;
+import com.lin.common.job.config.JobConfig;
 
 import static org.quartz.TriggerBuilder.*;
 import static org.quartz.CronScheduleBuilder.*;

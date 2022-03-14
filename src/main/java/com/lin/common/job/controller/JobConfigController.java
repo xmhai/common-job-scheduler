@@ -1,4 +1,4 @@
-package com.linh.pfa.job.controller;
+package com.lin.common.job.controller;
 
 import java.util.List;
 
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.linh.pfa.job.config.JobConfig;
-import com.linh.pfa.job.config.JobConfigRepository;
+import com.lin.common.job.config.JobConfig;
+import com.lin.common.job.config.JobConfigRepository;
 
 @Controller
 @RequestMapping("/job/configs")

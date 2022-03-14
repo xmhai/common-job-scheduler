@@ -1,4 +1,4 @@
-package com.linh.pfa.job.stock;
+package com.lin.common.job.stock;
 
 import java.time.LocalDateTime;
 
@@ -9,8 +9,8 @@ import org.quartz.JobExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.linh.pfa.job.config.JobLog;
-import com.linh.pfa.job.config.JobLogRepository;
+import com.lin.common.job.config.JobLog;
+import com.lin.common.job.config.JobLogRepository;
 
 @Component
 @DisallowConcurrentExecution

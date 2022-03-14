@@ -3,32 +3,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.linh.pfa</groupId>
-		<artifactId>pfa</artifactId>
+		<groupId>com.lin.commons</groupId>
+		<artifactId>common-pom</artifactId>
 		<version>1.0.0</version>
-		<relativePath>../pom.xml</relativePath>
 	</parent>
-	<artifactId>job-service</artifactId>
+
+	<artifactId>common-job-scheduler</artifactId>
 	<version>1.0.0</version>
-	<name>job-service</name>
-	<description>Job Service</description>
+	<name>common-job-scheduler</name>
+	<description>Job Scheduler</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.linh.pfa</groupId>
-			<artifactId>linh-common</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.linh.pfa</groupId>
-			<artifactId>pfa-common</artifactId>
+			<groupId>com.lin.commons</groupId>
+			<artifactId>common-utils</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-batch</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-quartz</artifactId>

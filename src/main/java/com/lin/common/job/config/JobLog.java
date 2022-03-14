@@ -1,4 +1,4 @@
-package com.linh.pfa.job.config;
+package com.lin.common.job.config;
 
 import java.time.LocalDateTime;
 
@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.Where;
 
-import com.linh.common.base.BaseEntity;
+import com.lin.common.base.BaseEntity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
